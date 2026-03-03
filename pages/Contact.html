@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="../assets/CSS/style.css" />
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon" />
+  </head>
+  <body class="body-contact">
+    <header>
+      <img id ="logo" class="logo" src="./img/logo.png" alt="Cook papilles" />
+      <h1>Cook papilles</h1>
+      <p>Le blog des passionnées de patisseries</p>
+      <button id="menu-btn" aria-label="Ouvrir la sidebar">☰</button>
+    </header>
+
+    <aside id="sidebar" class="side">
+        <nav id="navBar" class="nav">
+          <a href="./Accueil.html">Accueil</a>
+          <a href="./pages/Recettes.html">Recettes</a>
+          <a href="./pages/Contact.html">Contact</a>
+        </nav>
+    </aside>
+
+    <main id="contact">
+      <section id="form" class="section-contact">
+        <div class="container">
+          <h2>Contact</h2>
+          <form class="contact-form">
+            <label for="name">Nom</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Votre nom"
+              required
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="text"
+              id="email"
+              name="email"
+              placeholder="Votre Email"
+              required
+            />
+
+            <label for="message">message</label>
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Votre mesage "
+              rows="12"
+              required >
+            
+            </textarea>
+            <button type="submit">Envoyer</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <p>blog cook papilles: &copie 2025 tout droit reserver</p>
+    </footer>
+  </body>
+</html>
