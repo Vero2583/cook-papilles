@@ -131,6 +131,10 @@ main h2 {
     margin-right: 5rem;
 }
 
+li{
+  margin-left: 2rem;
+}
+
 /*page contact*/
 
 main .contact{
