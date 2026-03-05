@@ -25,7 +25,6 @@ avec header, sidebar, main et footer.
 
 /* STYLE GLOBAL */
 body {
-  color: var(--primary);
   display: grid;
   grid-template-columns: 1fr 3fr; /* 1 fraction pour sidebar, 3 pour contenu */
   grid-template-rows: auto 1fr auto; /* header, contenu, footer */
@@ -39,7 +38,6 @@ body {
 /* HEADER */
 header {
   grid-area: header;
-  color: var(--primary);
   text-align: center;
   padding: 1rem;
   position: sticky;
@@ -67,7 +65,11 @@ header p {
 
 .dark{
   background-color: black;
-  color: red;
+  color:#E6ACD4;
+}
+
+.dark #sidebar a{
+  color: #E6ACD4;
 }
 
 
@@ -75,7 +77,6 @@ header p {
 
 #sidebar {
   grid-area: sidebar;
-  color: var(--primary);
   padding: 0.5rem;
 }
 
@@ -84,8 +85,8 @@ header p {
 }
 
 #sidebar a {
-  color: var(--primary);
   text-decoration: none;
+  color:#052141;
   display: block;
   padding: 0.5rem 0;
   font-size: 1.2rem;
@@ -185,17 +186,8 @@ border-color: var(--primary);
 /* FOOTER */
 footer {
   grid-area: footer;
-  background: #E6ACD4;
-  color: var(--primary);
   text-align: center;
-  padding: 1rem;
-  
-}
-
-footer a{
-    color: var(--primary);
-    line-height: 1em;
-    justify-content: space-between;
+  padding: 1rem; 
 }
 
 /* RESPONSIVE - MOBILE */
@@ -214,7 +206,6 @@ footer a{
     top: 0;
     height: 100%;
     width: 250px;
-    background: var(--primary);
     transition: left 0.3s;
   }
 
