@@ -27,7 +27,9 @@ cook papilles/
 |   |CSS/
 |    |_styles.css  
 |   |images/
-|    |-images  
+|    |_images  
+|   |js/
+|    |_script.js
 |
 |-pages/
 |    |_Recettes.html
@@ -36,3 +38,5 @@ cook papilles/
 |Accueil.html
 |
 |README.md
+
+

@@ -68,6 +68,11 @@ header p {
   display: none; /* caché sur desktop */
 }
 
+.dark{
+  background-color: black;
+  color: white;
+}
+
 /* SIDEBAR */
 #sidebar {
   grid-area: sidebar;
